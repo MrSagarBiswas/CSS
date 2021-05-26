@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(181, 255, 245);
+  text-align: center;
+  font-family: "Merriweather", serif;
+  border: solid 2px red;
+}
+
+.heading {
+  background-color: rgb(155, 253, 240);
+  padding: 60px;
+  font-family: "Dancing Script", cursive;
+  position: relative;
+}
+
+.myname {
+  position: relative;
+  font-size: 400%;
+}
+
+.dinosor1 {
+  position: absolute;
+  height: 90%;
+  left: 15%;
+}
+
+.dinosor2 {
+  position: absolute;
+  height: 70%;
+  right: 15%;
+  transform: rotateY(180deg);
+}
+
+.hr1 {
+  margin-top: 0px;
+}
+
+h1 {
+  font-family: "Parisienne", cursive;
+  margin-top: 0%;
+}
+
+h2 {
+  font-family: cursive;
+  margin-top: 0%;
+}
+
+.name {
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.top-cointainer {
+  position: relative;
+  padding-top: 30px;
+}
+
+.party-animal {
+
+}
+
+.sagarpic {
+  height: 200px;
+  border-radius: 100%;
+  animation: 3s linear 1s infinite alternate slidein;
+}
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+.middle-container {
+}
+
+.skills {
+  position: relative;
+}
+
+.graphic-design1 {
+  height: 80px;
+  position: absolute;
+  left: 20%;
+  top: 16%;
+}
+
+.graphic-design2 {
+  height: 80px;
+  position: absolute;
+  right: 20%;
+  top: 16%;
+}
+
+.ai {
+  overflow: hidden;
+  border: 5px solid black;
+}
+.bottom-container {
+}
+
+.cloud1 {
+  height: 130px;
+  position: absolute;
+  left: 24%;
+  top: 35%;
+}
+
+.cloud2 {
+  height: 130px;
+  position: absolute;
+  top: 45%;
+  right: 20%;
+}
+
+.cloud3 {
+  position: absolute;
+  top: 75%;
+  height: 130px;
+  left: 18%;
+}
+
+.cloud4 {
+  position: absolute;
+  height: 130px;
+  top: 85%;
+  right: 20%;
+}
+
+.computer {
+  height: 250px;
+  border-radius: 30%;
+}
+
+.Twitter-link {
+  position: relative;
+  height: 50px;
+  left: 30%;
+}
+
+.LinkedIn-link {
+  position: relative;
+  height: 44px;
+}
+
+.facebook-link {
+  position: relative;
+  height: 50px;
+  right: 30%;
+}
